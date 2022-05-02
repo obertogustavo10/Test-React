@@ -1,0 +1,56 @@
+
+.root{
+  display: flex;
+  height: 140px;
+
+
+}
+.root:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.animation{
+  margin-top: 50px;
+}
+.img{
+  position: relative;
+  animation: animate 2s alternate infinite;
+}
+@keyframes animate {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 60px;
+  }
+}
+.img1{
+  position: relative;
+  animation: animate1 2s alternate infinite;
+}
+.alive{
+  height: 0.5rem;
+    width: 0.5rem;
+    margin-right: 0.375rem;
+    background: rgb(85, 204, 68);
+    border-radius: 50%;
+}
+@keyframes animate1 {
+  from {
+    bottom: 60px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+
+.button-history{
+  margin-top: 30px;
+
+}
+.botton-history{
+  height: 30px;  
+}
